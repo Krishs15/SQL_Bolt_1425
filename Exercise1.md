@@ -1,13 +1,13 @@
-#Exercise 1
+# Exercise 1
 
-##1.Find the title of each film 
+## 1.Find the title of each film 
 
-##Query
+## Query
 ```sql
      SELECT title FROM movies;
 ```
 
-##Output
+## Output
 | title |
 |---|
 | Toy Story |
@@ -25,14 +25,14 @@
 | Brave |
 | Monsters University |
 
-##2.Find the director of each film
+## 2.Find the director of each film
 
-##Query
+## Query
 ```sql
      SELECT director FROM movies;
 ```
 
-##Output
+## Output
 | director |
 |---|
 | John Lasseter |
@@ -50,14 +50,14 @@
 | Brenda Chapman |
 | Dan Scanlon |
 
-##3.Find the title and director of each film
+## 3.Find the title and director of each film
 
-##Query
+## Query
 ```sql
      SELECT title,director FROM movies;
 ```
 
-##Output
+## Output
 | Title | Director |
 |---|---|
 | Toy Story | John Lasseter |
@@ -75,14 +75,14 @@
 | Brave | Brenda Chapman |
 | Monsters University | Dan Scanlon |
 
-##4.Find the title and year of each film 
+## 4.Find the title and year of each film 
 
-##Query
+## Query
 ```sql
     SELECT title,year FROM movies;
 ```
 
-##Output
+## Output
 | title | year |
 |---|---|
 | Toy Story | 1995 |
@@ -100,14 +100,14 @@
 | Brave | 2012 |
 | Monsters University | 2013 |
 
-##5.Find all the information about each film 
+## 5.Find all the information about each film 
 
-##Query
+## Query
 ```sql
      SELECT * FROM movies;
 ```
 
-##Output
+## Output
 | id | title | director | year | length_minutes |
 |---|---|---|---|---|
 | 1 | Toy Story | John Lasseter | 1995 | 81 |
